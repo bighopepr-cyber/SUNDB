@@ -1,0 +1,12 @@
+[package]
+name = "sundb-server"
+version = "0.1.0"
+edition = "2021"
+description = "Server runtime for SUNDB"
+license = "MIT"
+
+[dependencies]
+sundb-core = { path = "../sundb-core" }
+sundb-kernel = { path = "../sundb-kernel" }
+sundb-network = { path = "../sundb-network" }
+tokio = { version = "=1.41.1", features = ["full"] }

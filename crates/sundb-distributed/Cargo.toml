@@ -1,0 +1,11 @@
+[package]
+name = "sundb-distributed"
+version = "0.1.0"
+edition = "2021"
+description = "Distributed database layer for SUNDB"
+license = "MIT"
+
+[dependencies]
+sundb-core = { path = "../sundb-core" }
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"

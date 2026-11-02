@@ -1,0 +1,16 @@
+[workspace]
+members = [
+  "crates/sundb-core",
+  "crates/sundb-kernel",
+  "crates/sundb-storage",
+  "crates/sundb-query",
+  "crates/sundb-transaction",
+  "crates/sundb-index",
+  "crates/sundb-security",
+  "crates/sundb-network",
+  "crates/sundb-distributed",
+  "crates/sundb-ai",
+  "crates/sundb-cli",
+  "crates/sundb-server",
+]
+resolver = "2"

@@ -1,0 +1,10 @@
+[package]
+name = "sundb-core"
+version = "0.1.0"
+edition = "2021"
+description = "Core abstractions and shared types for SUNDB"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"

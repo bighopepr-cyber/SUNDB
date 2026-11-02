@@ -1,0 +1,11 @@
+[package]
+name = "sundb-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Command line interface for SUNDB"
+license = "MIT"
+
+[dependencies]
+sundb-core = { path = "../sundb-core" }
+sundb-kernel = { path = "../sundb-kernel" }
+sundb-query = { path = "../sundb-query" }
